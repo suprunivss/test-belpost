@@ -76,7 +76,7 @@
 }
 
 .content {
-    background-image: url("/assets/img/background1.png");
+    background-image: url("../assets/img/background1.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1130px;
