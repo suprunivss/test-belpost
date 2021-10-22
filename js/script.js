@@ -1,8 +1,6 @@
 // Weather
 
-const url = "http://api.openweathermap.org/data/2.5/weather?id=625144&appid=4ae244728ef9905b2bd2725593a721bf&units=metric"
-
-fetch(url)
+fetch("http://api.openweathermap.org/data/2.5/weather?id=625144&appid=4ae244728ef9905b2bd2725593a721bf&units=metric")
   .then(function (resp) {
     return resp.json();
   })
